@@ -13,5 +13,6 @@ This will create two services one for the mongo db another one for the service i
 Note: - Before running the compose please make sure the fat jar file is created under build directory
 Use docker-compose down to stop and remove all the resources
 
+#### Use the attached postman collection to test the rest api's available
 
  
