@@ -1,0 +1,1 @@
+package com.cognifyx.challenge.social.dto;

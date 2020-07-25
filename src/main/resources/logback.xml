@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+<property resource="application.properties" />
+<appender name="social"
+          class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${LOG_PATH}/social.log</file>
+    <encoder
+            class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+        <Pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] %level - [%thread] [%C.%M:%L] -  %message%n</Pattern>
+    </encoder>
+
+    <rollingPolicy
+            class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+        <fileNamePattern>${LOG_PATH}/archive/%d{yyyy/MM/dd, aux}/social.log-%d{yyyy-MM-dd}.log</fileNamePattern>
+        <maxHistory>1</maxHistory>
+        <cleanHistoryOnStart>true</cleanHistoryOnStart>
+    </rollingPolicy>
+</appender>
+
+
+    <root level="INFO">
+        <appender-ref ref="social" />
+    </root>
+
+    <logger name="com.cognifyx" level="TRACE" additivity="false">
+        <appender-ref ref="social" />
+    </logger>
+
+</configuration>
