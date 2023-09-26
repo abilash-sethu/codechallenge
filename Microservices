@@ -1,4 +1,4 @@
-<mxfile modified="2023-09-26T17:47:40.129Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="0qzHIBIoiiNu0dZt-tis" version="21.4.0" type="github">
+<mxfile modified="2023-09-26T18:11:25.609Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="gtQgJF3y0f4P5BPsn5SW" version="21.4.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="1">
       <root>
@@ -40,8 +40,8 @@
         <mxCell id="mIDYrjBafM6G4VBJrMWP-13" value="Replica 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="955" y="274" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mIDYrjBafM6G4VBJrMWP-14" value="Replica 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="955" y="310" width="70" height="30" as="geometry" />
+        <mxCell id="mIDYrjBafM6G4VBJrMWP-14" value="Replica 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="955" y="313" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mIDYrjBafM6G4VBJrMWP-15" value="&lt;b&gt;Discovery Server&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="486.5" y="160" width="120" height="120" as="geometry" />
@@ -58,7 +58,7 @@
         <mxCell id="mIDYrjBafM6G4VBJrMWP-19" value="Replica 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="714" y="90" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mIDYrjBafM6G4VBJrMWP-20" value="Replica 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mIDYrjBafM6G4VBJrMWP-20" value="Replica 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="714" y="130" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mIDYrjBafM6G4VBJrMWP-22" value="Registration On startup &amp;amp; Config Server Lookup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -247,6 +247,15 @@
         </mxCell>
         <mxCell id="mIDYrjBafM6G4VBJrMWP-73" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" vertex="1" parent="1">
           <mxGeometry x="190" y="655" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="mIDYrjBafM6G4VBJrMWP-74" value="Replica 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="511.5" y="190" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mIDYrjBafM6G4VBJrMWP-75" value="Replica 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="511.5" y="230" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mIDYrjBafM6G4VBJrMWP-76" value="Replica 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="955" y="354" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
